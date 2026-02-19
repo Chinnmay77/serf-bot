@@ -1,4 +1,4 @@
-import TelegramBot from '8408567668:AAHeXmw6nF1dpQjEIUlJ1SvdCz7MeZPUhRI';
+import TelegramBot from 'node-telegram-bot-api';
 
 const token = process.env.TELEGRAM_TOKEN;
 const bot = new TelegramBot(token, { polling: true });
